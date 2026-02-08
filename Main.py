@@ -35,7 +35,7 @@ def main():
         else:
             current_color = pygame.Color("white")
         screen.fill((0,0,0))
-        pygame.draw.rect(screen,current_color,(x,y,sprite_width,sprite_height))
+        pygame.draw.rect(screen,current_color,(x,y,sprite_width,sprite_height),0)
         pygame.display.flip()
         clock.tick(90)
 if __name__ == "__main__":
